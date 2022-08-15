@@ -1,4 +1,4 @@
-# nobar-id
+# boilerplate vue 2
 
 ## Project setup
 ```
