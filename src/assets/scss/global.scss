@@ -1,0 +1,40 @@
+@use 'sass:map';
+@import './config.scss';
+
+* {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: white;
+  line-height: $line-heigth;
+  text-align: center;
+  font-family: map-get($font, regular), 'Courier New', Courier, monospace;
+}
+
+#app {
+  max-width: 1904px;
+  margin: 0 auto;
+}
+
+.v-btn {
+  box-shadow: none;
+  border-radius: 0;
+  text-transform: capitalize;
+}
+
+.font {
+  &-light {
+    font-family: map-get($font, light);
+  }
+  &-regular {
+    font-family: map-get($font, regular);
+  }
+  &-bold {
+    font-family: map-get($font, bold);
+  }
+}

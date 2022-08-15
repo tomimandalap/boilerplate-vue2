@@ -1,0 +1,84 @@
+// font family
+$body-font-family: Arial, Helvetica, sans-serif;
+
+// line height
+$line-heigth: 24px;
+
+// color
+$color: (
+  primary: #1391c4,
+  success: #55cb95,
+  danger: #ffbcab,
+  warning: #ff8200,
+  light: #ffffff,
+  dark: #1e1e1e,
+  info: #e0f7ef,
+);
+
+// text-align
+$text-align: (
+  left: left,
+  center: center,
+  right: right,
+  justify: justify,
+);
+
+// font-size
+$font-size: (
+  xs: 12px,
+  sm: 14px,
+  md: 18px,
+  lg: 24px,
+  xl: 32px,
+  xxl: 52px,
+);
+
+// margin
+$margin: (
+  zero: 0,
+  one: 4px,
+  two: 8px,
+  three: 16px,
+  four: 32px,
+  five: 64px,
+);
+
+// font-weight
+$font-weight: (
+  light: 300,
+  normal: 400,
+  medium: 500,
+  bold: 700,
+);
+
+// local fonts
+@font-face {
+  font-family: 'InterLight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/Inter/Inter-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'InterRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Inter/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'InterBold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/Inter/Inter-Bold.ttf') format('truetype');
+}
+
+// fonts
+$font: (
+  light: 'InterLight',
+  regular: 'InterRegular',
+  bold: 'InterBold',
+);
